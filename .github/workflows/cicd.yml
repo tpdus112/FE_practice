@@ -18,7 +18,7 @@ jobs:
           node-version: '18'
 
       - name: Install dependencies
-        run: npm CI
+        run: npm ci
 
       - name : Set environment variables
         run: |
